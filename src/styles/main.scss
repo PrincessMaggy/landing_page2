@@ -1,0 +1,19 @@
+@mixin breakpoint($point){
+    @if $point == md{
+        //768px
+        @media(min-width: 48em){
+            @content;
+        }
+    }
+}
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+@import './home';
+@import './nav';
+@import './footer';
+@import './about'
