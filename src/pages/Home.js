@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
 import Centre from '../components/Centre';
+import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
@@ -25,6 +26,7 @@ function Home() {
      <Banner/>
      <Card />
      <Centre/>
+     <Newsletter/>
         <Footer/>
       </motion.div>
     </div>

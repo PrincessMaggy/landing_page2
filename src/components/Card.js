@@ -5,7 +5,9 @@ import card2 from '../img/card2.png'
 import card3 from '../img/card3.png'
 import card4 from '../img/card4.png'
 
-let easing = [0.6, -0.05, 0.01, 0.99];
+
+function Card() {
+  let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
   initial:{
     y:-60,
@@ -22,7 +24,6 @@ const btnGroup ={
   }
 }
 
-function Card() {
   return (
     <div className='Card'>
 

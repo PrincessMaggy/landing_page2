@@ -4,7 +4,11 @@ import {motion} from 'framer-motion'
 import play from '../img/playstore.svg'
 import apple from '../img/apple.svg'
 
-let easing = [0.6, -0.05, 0.01, 0.99];
+
+
+function Centre() {
+
+  let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
   initial:{
     y:-60,
@@ -20,8 +24,6 @@ const btnGroup ={
     }
   }
 }
-
-function Centre() {
   return (
     <div className='Centre'>
         <h1 className='title'>Lorem ipsum ipsum ipsum</h1>
