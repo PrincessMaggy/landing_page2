@@ -3,6 +3,10 @@ import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion'
 import play from '../img/playstore.svg'
 import apple from '../img/apple.svg'
+import  twitter from '../img/twitter.svg'
+import  youtube from '../img/youtube.svg'
+import  instagram from '../img/instagram.svg'
+import  facebook from '../img/facebook.svg'
 
 
 let easing = [0.6, -0.05, 0.01, 0.99];
@@ -70,6 +74,10 @@ function Footer() {
             <div className= "contact">
               <p className="linkTitle">Contact</p>
               <Link  className='footerlink' to="/sample">hello@sample.com </Link> 
+              <img src={facebook} alt="facebook" />
+              <img src={twitter} alt="twitter" />
+              <img src={instagram} alt="instagram" />
+              <img src={youtube} alt="youtube" />
               {/*icons  */}
             </div>
       </div>
