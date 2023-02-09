@@ -4,6 +4,7 @@ import {BiMenuAltRight} from 'react-icons/bi';
 import {AiOutlineClose} from 'react-icons/ai';
 import {Link} from 'react-router-dom';
 import {motion, AnimatePresence} from 'framer-motion'
+import arrow from '../img/arrow-down.png'
 
 function Nav() {
 const [menu, setMenu] = useState(false);
@@ -134,7 +135,9 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/products">Products</Link> </motion.li>
+                    }}><Link  className='navlink' to="/products">Products</Link>
+                    <img src={arrow} alt="arrow" className='arrow'/>
+                   </motion.li>
 
                     
                 <motion.li
@@ -149,7 +152,10 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/products">Resources</Link> </motion.li>
+                    }}><Link  className='navlink' to="/products">Resources</Link>
+                                        <img src={arrow} className="arrow" alt="arrow"/>
+
+                   </motion.li>
 
                     
                 <motion.li
