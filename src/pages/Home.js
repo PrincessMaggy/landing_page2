@@ -3,6 +3,7 @@
 import Nav from '../components/Nav';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
+import Centre from '../components/Centre';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
@@ -23,6 +24,7 @@ function Home() {
       <Nav/>
      <Banner/>
      <Card />
+     <Centre/>
         <Footer/>
       </motion.div>
     </div>

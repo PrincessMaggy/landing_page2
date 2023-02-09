@@ -1,6 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion'
+import play from '../img/playstore.svg'
+import apple from '../img/apple.svg'
+
 
 let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
@@ -35,14 +38,12 @@ function Footer() {
           <motion.button    variants={btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}>
-            {/* icon */}
-            GET IT ON <span>Google PlayStore</span>
+            <img src={play} alt="play" />
           </motion.button>
           <motion.button    variants={btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}>
-            {/* icon */}
-            Download on the<span>App Store</span>
+            <img src={apple} alt="apple" />
           </motion.button>
         </motion.div>
       </div>
