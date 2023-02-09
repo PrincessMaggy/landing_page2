@@ -23,7 +23,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footerleft">
-        <h2><Link id="logo" to="/newapp" className='footerlogo'>AppName</Link> </h2>
+        <h2><Link id="logo" to="/sample" className='footerlogo'>AppName</Link> </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum diam sem, in aliquet justo bibendum non. Suspendisse 
           {/* dapibus ultricies neque sed rhoncus. Integer consequat aliquet aliquet. Quisque aliquam feugiat mauris, eu fringilla dolor eleifend id. Proin nibh dui, dictum nec enim eu, posuere dapibus nulla. Proin interdu
           m condimentum sollicitudin. Ut eros nunc, mattis et mattis nec, viverra eu enim. Aenean fermentum egestas eros. Pellentesque non tellus nisi. Duis convallis ex id dui viverra molestie id at dolor. Nam et libero at 
@@ -51,28 +51,28 @@ function Footer() {
             <div className="company">
               <p className="linkTitle">Company</p>
               <Link  className='footerlink' to="/about">About Us</Link> 
-              <Link  className='footerlink' to="/newapp">Career</Link>
-              <Link  className='footerlink' to="/newapp">Business</Link> 
+              <Link  className='footerlink' to="/sample">Career</Link>
+              <Link  className='footerlink' to="/sample">Business</Link> 
             </div>
             <div className="support">
               <p className="linkTitle">Support</p>
-              <Link  className='footerlink' to="/newapp">Policies </Link> 
-              <Link  className='footerlink' to="/newapp">Learn</Link> 
-              <Link  className='footerlink' to="/newapp">FAQ</Link>
+              <Link  className='footerlink' to="/sample">Policies </Link> 
+              <Link  className='footerlink' to="/sample">Learn</Link> 
+              <Link  className='footerlink' to="/sample">FAQ</Link>
             </div>
             <div className="products">
               <p className="linkTitle">Products</p>
-              <Link  className='footerlink' to="/newapp">Gift Cards</Link> 
-              <Link  className='footerlink' to="/newapp">Airtime To Cash</Link> 
-              <Link  className='footerlink' to="/newapp">Refill</Link>
+              <Link  className='footerlink' to="/sample">Gift Cards</Link> 
+              <Link  className='footerlink' to="/sample">Airtime To Cash</Link> 
+              <Link  className='footerlink' to="/sample">Refill</Link>
             </div>
             <div className= "contact">
               <p className="linkTitle">Contact</p>
-              <Link  className='footerlink' to="/newapp">hello@newapp.com </Link> 
+              <Link  className='footerlink' to="/sample">hello@sample.com </Link> 
               {/*icons  */}
             </div>
       </div>
-  {/* <p>(c) newapp 2023</p> */}
+  {/* <p>(c) sample 2023</p> */}
       
     </div>
   )

@@ -1,6 +1,7 @@
-import React from 'react';
+
 // components
 import Nav from '../components/Nav';
+import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
@@ -19,7 +20,7 @@ function Home() {
    >
   
       <Nav/>
-     
+     <Banner/>
         <Footer/>
       </motion.div>
     </div>

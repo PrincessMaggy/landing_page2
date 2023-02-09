@@ -53,22 +53,6 @@ const header={
   }
 }
 
-const btnGroup ={
-  initial:{
-    y:-60,
-    opacity:0,
-    transition:{duration:0.05, ease:easing}
-  },
-  animate:{
-    y:0,
-    opacity:1,
-    animation:{
-      duration:0.6,
-      ease:easing
-    }
-  }
-}
-
 const item={
   exit:{
     opacity:0,
@@ -93,7 +77,7 @@ const item={
           <motion.div variants={stagger} className='navContainer'>
           <div className='logoham'>
             <motion.h2 variants={header}>
-                  <Link id="logo" to="/newapp2" className='navlink'>Logo</Link> 
+                  <Link id="logo" to="/sample" className='navlink'>Logo</Link> 
             </motion.h2>
             <motion.div 
               variants={item}
@@ -152,30 +136,38 @@ const item={
                         }
                     }}><Link  className='navlink' to="/products">Products</Link> </motion.li>
 
-                <motion.li 
+                    
+                <motion.li
                 className='li'
-                initial={{y:80,opacity:0}}
+                 initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
-                    transition={{delay:.5}}
+                    transition={{delay:.6}}
                     exit={{
                       opacity:0,
                       y:90,
                         transition:{
                           ease:"easeInOut",
-                          delay:.4
+                          delay:.6
                         }
-                    }}><Link  className='navlink' to="/contact">SignUp</Link> </motion.li>
+                    }}><Link  className='navlink' to="/products">Resources</Link> </motion.li>
 
-
+                    
+                <motion.li
+                className='li'
+                 initial={{y:80,opacity:0}}
+                    animate={{y:0, opacity:1}}
+                    transition={{delay:.6}}
+                    exit={{
+                      opacity:0,
+                      y:90,
+                        transition:{
+                          ease:"easeInOut",
+                          delay:.6
+                        }
+                    }}><Link  className='navlink' to="/products">Business</Link> </motion.li>
                 
                 </motion.ul>
-                <motion.div 
-                variants={btnGroup}
-            whileHover={{scale:1.05}}
-            whileTap={{scale:0.95}}
-            >
-                    <button className='navbtn'>Get Started</button>
-                </motion.div>
+            
             </motion.nav>
 
 
