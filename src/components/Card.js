@@ -30,7 +30,7 @@ const btnGroup ={
     <div className='card-container one'>
         <div className='card-text'>
             <h2>Lorem ipsum lorem?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
             variants={btnGroup}
          whileHover={{scale:1.05}}
@@ -46,7 +46,7 @@ const btnGroup ={
     <div className='card-container two'>
         <div className='card-text'>
             <h2>Lorem ipsum lorem?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
             variants={btnGroup}
          whileHover={{scale:1.05}}
@@ -62,7 +62,7 @@ const btnGroup ={
     <div className='card-container three'>
         <div className='card-text'>
             <h2>Lorem ipsum lorem?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
             variants={btnGroup}
          whileHover={{scale:1.05}}
@@ -78,7 +78,7 @@ const btnGroup ={
     <div className='card-container four'>
         <div className='card-text'>
             <h2>Lorem ipsum lorem?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    variants={btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}

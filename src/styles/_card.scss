@@ -29,13 +29,16 @@
     border-radius: 30px;
     @media(max-width:768px){
         width: 100%;
+        height: auto;
+    }
+    @media(min-width:1250px){
+     width: 40vw;  
+     height: auto;     
     }
     .card-img{
         img{
-        // @media(max-width:768px){
             max-width: 100%;
-        // }
-    }
+        }
 }
 }
 .card-text{
@@ -46,12 +49,17 @@
     align-content: space-between;
     padding: 3em;
     align-items: center;
+    text-align: center;
+    @media(min-width:1250px){
+     height: auto;       
+    }
     h2{
         font-weight: 700;
         margin-bottom: 1.5em;
     }
     p{
         margin-bottom: 1.5em;
+        text-align: center;
     }
 }
 .card-btn{
