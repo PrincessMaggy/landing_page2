@@ -1,6 +1,7 @@
 
 // components
 import Nav from '../components/Nav';
+import Navmenu from '../components/Navmenu';
 import Banner from '../components/Banner';
 import Card from '../components/Card';
 import Centre from '../components/Centre';
@@ -22,7 +23,8 @@ function Home() {
       //       exit={{opacity:0}}
    >
   
-      <Nav/>
+      {/* <Nav/> */}
+      <Navmenu/>
      <Banner/>
      <Card />
      <Centre/>
