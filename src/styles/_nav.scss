@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
     background-color: rgb(106, 13, 173);
     z-index: 1000;
    &.active{
@@ -148,7 +148,7 @@ nav{
     height: auto;
     width: 60vw;
     display: flex;
-    overflow: hidden;
+    overflow: initial;
     flex-direction: column;
     box-shadow: rgba(0,0,0,0.45) 20px 25px 20px -20px;
     border-radius: 15px;
@@ -157,10 +157,10 @@ nav{
     z-index: 1;
     flex-wrap: wrap;
     @media(min-width:769px){
-        width: 20vw;
+        width: 15vw;
     }
    
-    div{
+    .grid{
     @media(min-width:769px){
         display: grid;
         grid-template-columns: auto auto;

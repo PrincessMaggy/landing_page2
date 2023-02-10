@@ -160,7 +160,7 @@ const item={
                           delay:.3
                         }
                     }}>Our Products</motion.h3>
-                    <div>
+                    <div className='grid'>
                       <motion.li initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{delay:.3}}

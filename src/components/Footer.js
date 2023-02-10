@@ -28,7 +28,8 @@ const btnGroup ={
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className='footer-container'>
+      <div className="footer">
       <div className="footerleft">
         <h2><Link id="logo" to="/sample" className='footerlogo'>AppName</Link> </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum diam sem, in aliquet justo bibendum non. Suspendisse 
@@ -81,7 +82,8 @@ function Footer() {
               {/*icons  */}
             </div>
       </div>
-  {/* <p>(c) sample 2023</p> */}
+      </div>
+  <p className='copy'>&copy; sample 2023</p>
       
     </div>
   )

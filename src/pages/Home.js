@@ -23,8 +23,8 @@ function Home() {
       //       exit={{opacity:0}}
    >
   
-      {/* <Nav/> */}
-      <Navmenu/>
+      <Nav/>
+      {/* <Navmenu/> */}
      <Banner/>
      <Card />
      <Centre/>
