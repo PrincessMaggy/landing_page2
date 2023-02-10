@@ -148,6 +148,7 @@ const item={
                     
                    {submenu && (
                     <motion.ul className='sub-menu'>
+                    <div className='sub-container'>
                     <motion.h3 initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{delay:.3}}
@@ -204,6 +205,7 @@ const item={
                           delay:.3
                         }
                     }}><Link  className='navlink' to="/products">Shopping</Link></motion.li>
+                    </div>
                     </div>
                     </motion.ul>)} 
                    </motion.li>

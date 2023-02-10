@@ -112,6 +112,7 @@ nav{
     }
     li{
         list-style: none;
+        position: relative;
     }
     .navlink{
         color: white;
@@ -140,19 +141,20 @@ nav{
 
 // submenu styling (first mobile design)
 .sub-menu{
-    // display: none;
+    display: block;
     position: absolute;
     top: 35px;
     background-color: white;
     height: auto;
     width: 60vw;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     box-shadow: rgba(0,0,0,0.45) 20px 25px 20px -20px;
     border-radius: 15px;
     padding: 1em 0 1em 1em;
     align-content: space-between;
-    z-index: 1000;
+    z-index: 1;
     flex-wrap: wrap;
     @media(min-width:769px){
         width: 20vw;
