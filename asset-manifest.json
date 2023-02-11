@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sample/static/css/main.fb32c36e.css",
-    "main.js": "/sample/static/js/main.3a88a442.js",
+    "main.css": "/sample/static/css/main.4b417172.css",
+    "main.js": "/sample/static/js/main.be3b769a.js",
     "static/js/787.e577274b.chunk.js": "/sample/static/js/787.e577274b.chunk.js",
     "static/media/hero5.jpg": "/sample/static/media/hero5.3035399b711ec71eb737.jpg",
     "static/media/hero1.jpg": "/sample/static/media/hero1.ab406406946cec1cf632.jpg",
@@ -17,17 +17,17 @@
     "static/media/apple.svg": "/sample/static/media/apple.940c773cb052bb7bc89971abbc0aacd5.svg",
     "static/media/card3.png": "/sample/static/media/card3.d435501beb9614f5c144.png",
     "static/media/playstore.svg": "/sample/static/media/playstore.dd84ccad94e66c86740e46dbc53c0285.svg",
-    "static/media/twitter.svg": "/sample/static/media/twitter.0e4602dd95a107a7e01cf1d7cee5c398.svg",
-    "static/media/youtube.svg": "/sample/static/media/youtube.b5c48a47e01d3178349f7b66ec95acf5.svg",
-    "static/media/instagram.svg": "/sample/static/media/instagram.f49b375de2332d64874cc0f256de9455.svg",
+    "static/media/twitter.svg": "/sample/static/media/twitter.bc89680df83826783865c586474cab55.svg",
+    "static/media/youtube.svg": "/sample/static/media/youtube.e902277c0a3382b06ab7948915fb8be5.svg",
+    "static/media/instagram.svg": "/sample/static/media/instagram.feb8b4becc003d0202d52e8eb84fcb09.svg",
     "index.html": "/sample/index.html",
-    "static/media/facebook.svg": "/sample/static/media/facebook.a6b27e5846562225ce7e65bc86d3d19e.svg",
-    "main.fb32c36e.css.map": "/sample/static/css/main.fb32c36e.css.map",
-    "main.3a88a442.js.map": "/sample/static/js/main.3a88a442.js.map",
+    "static/media/facebook.svg": "/sample/static/media/facebook.7311002f949c9d360c17ec49508a99b4.svg",
+    "main.4b417172.css.map": "/sample/static/css/main.4b417172.css.map",
+    "main.be3b769a.js.map": "/sample/static/js/main.be3b769a.js.map",
     "787.e577274b.chunk.js.map": "/sample/static/js/787.e577274b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb32c36e.css",
-    "static/js/main.3a88a442.js"
+    "static/css/main.4b417172.css",
+    "static/js/main.be3b769a.js"
   ]
 }
