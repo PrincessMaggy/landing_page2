@@ -8,24 +8,6 @@ import  youtube from '../img/youtube.svg'
 import  instagram from '../img/instagram.svg'
 import  facebook from '../img/facebook.svg'
 
-
-let easing = [0.6, -0.05, 0.01, 0.99];
-const btnGroup ={
-  initial:{
-    y:-60,
-    opacity:0,
-    transition:{duration:0.05, ease:easing}
-  },
-  animate:{
-    y:0,
-    opacity:1,
-    animation:{
-      duration:0.6,
-      ease:easing
-    }
-  }
-}
-
 function Footer(props) {
   return (
     <div className='footer-container' onClick={props.toggleall}>
@@ -40,12 +22,12 @@ function Footer(props) {
         <motion.div 
       
          className="footerbtn">
-          <motion.button    variants={btnGroup}
+          <motion.button    variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}>
             <img src={play} alt="play" />
           </motion.button>
-          <motion.button    variants={btnGroup}
+          <motion.button    variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}>
             <img src={apple} alt="apple" />

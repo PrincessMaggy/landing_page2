@@ -27,6 +27,23 @@ const toggleall =()=>{
   setsubmenu(false);
   setsubmenu1(false);
 }
+let easing = [0.6, -0.05, 0.01, 0.99];
+const btnGroup ={
+  initial:{
+    y:-60,
+    opacity:0,
+    transition:{duration:0.05, ease:easing}
+  },
+  animate:{
+    y:0,
+    opacity:1,
+    animation:{
+      duration:0.6,
+      ease:easing
+    }
+  }
+}
+
   return (
     <div>
       <motion.div 
@@ -35,10 +52,10 @@ const toggleall =()=>{
   
       <Nav submenu={submenu} submenu1={submenu1} togglesubmenu={togglesubmenu} togglesubmenu1= {togglesubmenu1}/>
      <Banner toggleall={toggleall} />
-     <Card toggleall={toggleall}  />
-     <Centre toggleall={toggleall} />
+     <Card toggleall={toggleall} btnGroup={btnGroup} />
+     <Centre toggleall={toggleall}  btnGroup={btnGroup} />
      <Newsletter toggleall={toggleall} />
-        <Footer toggleall={toggleall} />
+        <Footer toggleall={toggleall} btnGroup={btnGroup}  />
       </motion.div>
     </div>
   )

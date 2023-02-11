@@ -2,23 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 
 function Newsletter(props) {
-    
-let easing = [0.6, -0.05, 0.01, 0.99];
-const btnGroup ={
-  initial:{
-    y:-60,
-    opacity:0,
-    transition:{duration:0.05, ease:easing}
-  },
-  animate:{
-    y:0,
-    opacity:1,
-    animation:{
-      duration:0.6,
-      ease:easing
-    }
-  }
-}
+
 
   return (
     <div className='news' onClick={props.toggleall}>
@@ -27,7 +11,7 @@ const btnGroup ={
         <div className='newsletter'>
             <input type="text" className='input' placeholder="Enter your email address"/>
             <motion.span 
-                variants={btnGroup}
+                variants={props.btnGroup}
             whileHover={{scale:1.05}}
             whileTap={{scale:0.95}}
             >

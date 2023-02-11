@@ -7,22 +7,6 @@ import card4 from '../img/card4.png'
 
 
 function Card(props) {
-  let easing = [0.6, -0.05, 0.01, 0.99];
-const btnGroup ={
-  initial:{
-    y:-60,
-    opacity:0,
-    transition:{duration:0.05, ease:easing}
-  },
-  animate:{
-    y:0,
-    opacity:1,
-    animation:{
-      duration:0.6,
-      ease:easing
-    }
-  }
-}
 
   return (
     <div className='Card' onClick={props.toggleall}>
@@ -32,7 +16,7 @@ const btnGroup ={
             <h2>Lorem ipsum lorem?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
-            variants={btnGroup}
+            variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}
          className="card-btn">Learn more
@@ -48,7 +32,7 @@ const btnGroup ={
             <h2>Lorem ipsum lorem?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
-            variants={btnGroup}
+            variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}
          className="card-btn">Learn more
@@ -64,7 +48,7 @@ const btnGroup ={
             <h2>Lorem ipsum lorem?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
             <motion.button    
-            variants={btnGroup}
+            variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}
          className="card-btn">Learn more
@@ -79,7 +63,7 @@ const btnGroup ={
         <div className='card-text'>
             <h2>Lorem ipsum lorem?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
-            <motion.button    variants={btnGroup}
+            <motion.button    variants={props.btnGroup}
          whileHover={{scale:1.05}}
          whileTap={{scale:0.95}}
          className="card-btn">Learn more
