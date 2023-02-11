@@ -51,7 +51,12 @@
     text-transform: uppercase;
 }
 
-.footerbtn button{
+.footerbtn {
+
+    @media(min-width:769px){
+        text-align: left;
+    }
+button{
     // padding: 0.7em;
     color: #6a0dad;
     background-color: white;
@@ -69,7 +74,7 @@
         @media(min-width:1850px){
             
         }
-   
+    }
 }
 .footerlink{
     text-decoration: none;
