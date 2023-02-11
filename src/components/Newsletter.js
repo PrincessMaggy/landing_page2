@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 
-function Newsletter() {
+function Newsletter(props) {
     
 let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
@@ -21,7 +21,7 @@ const btnGroup ={
 }
 
   return (
-    <div className='news'>
+    <div className='news' onClick={props.toggleall}>
         <h1> Create a free account now</h1>
         <p>Lorem ipsum ipsum ipsum ipsumipsum</p>
         <div className='newsletter'>

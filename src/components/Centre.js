@@ -6,7 +6,7 @@ import apple from '../img/apple.svg'
 
 
 
-function Centre() {
+function Centre(props) {
 
   let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
@@ -25,7 +25,7 @@ const btnGroup ={
   }
 }
   return (
-    <div className='Centre'>
+    <div className='Centre' onClick={props.toggleall}>
         <h1 className='title'>Lorem ipsum ipsum ipsum</h1>
         <div className='centre-container'>
             <div className='phone-img'>

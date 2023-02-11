@@ -6,18 +6,11 @@ import {Link} from 'react-router-dom';
 import {motion, AnimatePresence} from 'framer-motion'
 import arrow from '../img/arrow-down.png'
 
-function Nav() {
+function Nav(props) {
 const [menu, setMenu] = useState(false);
-const[submenu, setsubmenu]= useState(false);
-const[submenu1, setsubmenu1]= useState(false);
 const [navbar, setNavbar] = useState(false);
 
-const togglesubmenu =()=>{
-  setsubmenu(!submenu)
-}
-const togglesubmenu1 =()=>{
-  setsubmenu1(!submenu1)
-}
+
 
 const changeBackground = ()=>{
   if(window.scrollY > 70){
@@ -142,11 +135,11 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/sample" onClick={togglesubmenu}>Products
+                    }}><Link  className='navlink' to="/sample" onClick={props.togglesubmenu}>Products
                     <img src={arrow} alt="arrow" className='arrow'/>
                     </Link>
                     
-                   {submenu && (
+                   {props.submenu && (
                     <motion.ul className='sub-menu'>
                     <div className='sub-container'>
                     <motion.h3 initial={{y:80,opacity:0}}
@@ -223,11 +216,11 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/sample"  onClick={togglesubmenu1}>Resources  
+                    }}><Link  className='navlink' to="/sample"  onClick={props.togglesubmenu1}>Resources  
                     <img src={arrow} className="arrow" alt="arrow"/>
                     </Link>
                      
-                     {submenu1 && (
+                     {props.submenu1 && (
                       <motion.ul className='sub-menu'>
                     <motion.h3 initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}

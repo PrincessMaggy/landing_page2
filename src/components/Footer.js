@@ -26,9 +26,9 @@ const btnGroup ={
   }
 }
 
-function Footer() {
+function Footer(props) {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' onClick={props.toggleall}>
       <div className="footer">
       <div className="footerleft">
         <h2><Link id="logo" to="/sample" className='footerlogo'>AppName</Link> </h2>

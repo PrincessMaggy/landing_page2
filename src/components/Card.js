@@ -6,7 +6,7 @@ import card3 from '../img/card3.png'
 import card4 from '../img/card4.png'
 
 
-function Card() {
+function Card(props) {
   let easing = [0.6, -0.05, 0.01, 0.99];
 const btnGroup ={
   initial:{
@@ -25,7 +25,7 @@ const btnGroup ={
 }
 
   return (
-    <div className='Card'>
+    <div className='Card' onClick={props.toggleall}>
 
     <div className='card-container one'>
         <div className='card-text'>

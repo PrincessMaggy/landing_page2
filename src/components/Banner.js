@@ -6,9 +6,9 @@ import hero4 from '../img/hero4.jpg';
 import hero5 from '../img/hero5.jpg';
 import hero6 from '../img/hero6.jpg';
 
-function Banner() {
+function Banner(props) {
   return (
-    <Carousel className='banner'>
+    <Carousel controls={false} className='banner' onClick={props.toggleall}>
       <Carousel.Item>
         <img
           className="d-block w-100"
