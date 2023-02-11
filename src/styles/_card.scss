@@ -5,6 +5,10 @@
     justify-content: space-between;
     gap:5em 5em;
     position: relative;
+    padding: 0 5em 0 5em;
+    @media(max-width:1120px){
+        padding: 0;
+    }
     .one{
         background-color: #fff6f5;
     }
@@ -28,6 +32,7 @@
     flex-direction: column;
     row-gap:2em;
     border-radius: 30px;
+    // flex-wrap: wrap;
     @media(max-width:768px){
         width: 100%;
         height: auto;
@@ -51,12 +56,19 @@
     padding: 3em;
     align-items: center;
     text-align: center;
+    @media(max-width:768px){
+        height: 60%;
+    }
     @media(min-width:1250px){
      height: auto;       
     }
     h2{
         font-weight: 700;
         margin-bottom: 1.5em;
+        @media(max-width:768px){
+            margin: 1.5em 0 1.5em 0;
+            padding: 1.5em 0 1.5em 0;
+        }
     }
     p{
         margin-bottom: 1.5em;

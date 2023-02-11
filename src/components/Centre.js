@@ -15,7 +15,7 @@ function Centre(props) {
             <div className='phone-img'>
                 <img src={phoneimg} alt="img"/>
             </div>
-            <div>
+            <div className='centre-content'>
                 <h1>Download our <br/> Mobile App</h1>
                 <motion.button    
                 className='centre-btn'

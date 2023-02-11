@@ -160,4 +160,7 @@ p{
     margin: 0;
     padding: 0;
     width: 100%;
+    @media(max-width:768px){
+        margin: 1.5em 0 1.5em 0;
+    }
 }
