@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sample/static/css/main.4b080e80.css",
-    "main.js": "/sample/static/js/main.0b2f6519.js",
+    "main.css": "/sample/static/css/main.b6840f90.css",
+    "main.js": "/sample/static/js/main.e6b986a5.js",
     "static/js/787.e577274b.chunk.js": "/sample/static/js/787.e577274b.chunk.js",
     "static/media/hero5.jpg": "/sample/static/media/hero5.3035399b711ec71eb737.jpg",
     "static/media/hero1.jpg": "/sample/static/media/hero1.ab406406946cec1cf632.jpg",
@@ -10,24 +10,24 @@
     "static/media/hero3.jpg": "/sample/static/media/hero3.ebe23a426ac7696f3e5f.jpg",
     "static/media/hero2.jpg": "/sample/static/media/hero2.a66fa41f9bb4e7955a80.jpg",
     "static/media/phone.png": "/sample/static/media/phone.631e63adc39489a6e298.png",
-    "static/media/home-hero.png": "/sample/static/media/home-hero.608f16b828a2f7653721.png",
     "static/media/card2.png": "/sample/static/media/card2.27dd2f0170bfa7290e1e.png",
     "static/media/card4.png": "/sample/static/media/card4.048172c23d2e319e5b00.png",
     "static/media/card1.png": "/sample/static/media/card1.4f341a166694848228dc.png",
     "static/media/apple.svg": "/sample/static/media/apple.940c773cb052bb7bc89971abbc0aacd5.svg",
     "static/media/card3.png": "/sample/static/media/card3.d435501beb9614f5c144.png",
     "static/media/playstore.svg": "/sample/static/media/playstore.dd84ccad94e66c86740e46dbc53c0285.svg",
+    "static/media/down-arrow.svg": "/sample/static/media/down-arrow.0bc8bc1a0bd1709e49cc048ad7b4c703.svg",
     "static/media/twitter.svg": "/sample/static/media/twitter.bc89680df83826783865c586474cab55.svg",
     "static/media/youtube.svg": "/sample/static/media/youtube.e902277c0a3382b06ab7948915fb8be5.svg",
     "static/media/instagram.svg": "/sample/static/media/instagram.feb8b4becc003d0202d52e8eb84fcb09.svg",
     "index.html": "/sample/index.html",
     "static/media/facebook.svg": "/sample/static/media/facebook.7311002f949c9d360c17ec49508a99b4.svg",
-    "main.4b080e80.css.map": "/sample/static/css/main.4b080e80.css.map",
-    "main.0b2f6519.js.map": "/sample/static/js/main.0b2f6519.js.map",
+    "main.b6840f90.css.map": "/sample/static/css/main.b6840f90.css.map",
+    "main.e6b986a5.js.map": "/sample/static/js/main.e6b986a5.js.map",
     "787.e577274b.chunk.js.map": "/sample/static/js/787.e577274b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b080e80.css",
-    "static/js/main.0b2f6519.js"
+    "static/css/main.b6840f90.css",
+    "static/js/main.e6b986a5.js"
   ]
 }
