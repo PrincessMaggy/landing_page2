@@ -6,6 +6,9 @@
     gap:5em 5em;
     position: relative;
     padding: 0 5em 0 5em;
+    @media(max-width:768px){
+        // gap: 2rem;
+    }
     @media(max-width:1120px){
         padding: 0;
     }
@@ -57,7 +60,8 @@
     align-items: center;
     text-align: center;
     @media(max-width:768px){
-        height: 60%;
+        height: 80%;
+        padding: 1rem;
     }
     @media(min-width:1250px){
      height: auto;       
@@ -66,8 +70,8 @@
         font-weight: 700;
         margin-bottom: 1.5em;
         @media(max-width:768px){
-            margin: 1.5em 0 1.5em 0;
-            padding: 1.5em 0 1.5em 0;
+            margin: 1.5rem 0 1.5rem 0;
+            padding: 1.5rem 0 1.5rem 0;
         }
     }
     p{

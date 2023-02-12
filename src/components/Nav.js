@@ -4,7 +4,7 @@ import {BiMenuAltRight} from 'react-icons/bi';
 import {AiOutlineClose} from 'react-icons/ai';
 import {Link} from 'react-router-dom';
 import {motion, AnimatePresence} from 'framer-motion'
-import arrow from '../img/arrow-down.png'
+import arrow from '../img/down-arrow.svg'
 
 function Nav(props) {
 const [menu, setMenu] = useState(false);
