@@ -72,12 +72,12 @@ const item={
     className={navbar ? "Nav active" :'Nav'}
     style={{height: !menu ? '4em':'60vh'}}
     animate='animate'
-    onClick={props.toggleall}
     >
     <AnimatePresence>
         { setMenu && (
           <motion.div variants={stagger} className='navContainer'>
-          <div className='logoham'>
+          <div className='logoham' 
+    onClick={props.toggleall}>
             <motion.h2 variants={header}>
                   <Link id="logo" to="/sample" className='navlink'>Logo</Link> 
             </motion.h2>
