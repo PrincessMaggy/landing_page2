@@ -135,7 +135,7 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/sample" onClick={props.togglesubmenu}>Products
+                    }}><Link  className='navlink' to="" onClick={props.togglesubmenu}>Products
                     <img src={arrow} alt="arrow" className='arrow'/>
                     </Link>
                     
@@ -164,7 +164,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">Refill</Link></motion.li>
+                    }}><Link  className='navlink' to="">Refill</Link></motion.li>
                       <motion.li initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{delay:.3}}
@@ -175,7 +175,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">Airtime</Link></motion.li>
+                    }}><Link  className='navlink' to="">Airtime</Link></motion.li>
                       <motion.li initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{delay:.3}}
@@ -186,7 +186,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">Gift card</Link></motion.li>
+                    }}><Link  className='navlink' to="">Gift card</Link></motion.li>
                       <motion.li initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{delay:.3}}
@@ -197,7 +197,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">Shopping</Link></motion.li>
+                    }}><Link  className='navlink' to="">Shopping</Link></motion.li>
                     </div>
                     </div>
                     </motion.ul>)} 
@@ -216,7 +216,7 @@ const item={
                           ease:"easeInOut",
                           delay:.6
                         }
-                    }}><Link  className='navlink' to="/sample"  onClick={props.togglesubmenu1}>Resources  
+                    }}><Link  className='navlink' to=""  onClick={props.togglesubmenu1}>Resources  
                     <img src={arrow} className="arrow" alt="arrow"/>
                     </Link>
                      
@@ -244,7 +244,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">FAW</Link></motion.li>
+                    }}><Link  className='navlink' to="" >FAW</Link></motion.li>
                       <motion.li className='li'
                  initial={{y:80,opacity:0}}
                     animate={{y:0, opacity:1}}
@@ -256,7 +256,7 @@ const item={
                           ease:"easeInOut",
                           delay:.3
                         }
-                    }}><Link  className='navlink' to="/products">Learn</Link></motion.li>
+                    }}><Link  className='navlink' to="">Learn</Link></motion.li>
                     </motion.ul>
 
                      )} 

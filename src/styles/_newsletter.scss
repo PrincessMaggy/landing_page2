@@ -25,12 +25,16 @@
     border: 0.5px solid rgba(106, 13, 173,0.1);
    height: 5.1em;
    border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   gap: 0;
     @media(max-width:768px){
         width: 90vw;
         padding: 0;
     }
     @media(max-width:350px){
-        width: 13rem;
+        // width: 13rem;
 
     }
 }
@@ -41,12 +45,26 @@
     background-color: rgba(106, 13, 173,0.05);
     margin-left:1em;
     @media(max-width:768px){
+        height: inherit;
         margin-left: 0;
         padding: 0;
-        width: 14rem;
+        width: 70vw;
+        &::-webkit-input-placeholder {
+            color: transparent;
+        }
+        &:-moz-placeholder { 
+           color: transparent;
+        }
+        &::-moz-placeholder { 
+           color: transparent;
+        }
+       & :-ms-input-placeholder { 
+           color: transparent;
+        }
     }
-    @media(max-width:350px){
-        width: 6rem;
+    @media(max-width:420px){
+        // width: 6rem;
+        font-size: 0.7rem;
 
     }
     &:hover{
@@ -72,14 +90,14 @@
     margin:0.5em 0.5em;
     transition: 0.3s ease all;
     @media(max-width:768px){
-       width: 6em;
+       width: 8em;
         padding: 0;
     }
-    @media(max-width:350px){
-        width: 5rem;
-        font-size: 0.9rem;
+    // @media(max-width:350px){
+    //     width: 5rem;
+    //     font-size: 0.9rem;
 
-    }
+    // }
     @media(min-width:769px){
     font-size: 1rem;
     }
