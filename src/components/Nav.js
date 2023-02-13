@@ -72,6 +72,7 @@ const item={
     className={navbar ? "Nav active" :'Nav'}
     style={{height: !menu ? '4em':'60vh'}}
     animate='animate'
+    onClick={props.toggleall}
     >
     <AnimatePresence>
         { setMenu && (
