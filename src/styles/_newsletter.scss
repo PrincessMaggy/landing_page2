@@ -47,20 +47,9 @@
     @media(max-width:768px){
         height: inherit;
         margin-left: 0;
-        padding: 0;
+        padding-left: 5px;
         width: 70vw;
-        &::-webkit-input-placeholder {
-            color: transparent;
-        }
-        &:-moz-placeholder { 
-           color: transparent;
-        }
-        &::-moz-placeholder { 
-           color: transparent;
-        }
-       & :-ms-input-placeholder { 
-           color: transparent;
-        }
+        
     }
     @media(max-width:420px){
         // width: 6rem;
