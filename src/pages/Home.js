@@ -50,7 +50,7 @@ const btnGroup ={
          className='home'
    >
   
-      <Nav submenu={submenu} submenu1={submenu1} togglesubmenu={togglesubmenu} togglesubmenu1= {togglesubmenu1}/>
+      <Nav toggleall={toggleall} submenu={submenu} submenu1={submenu1} togglesubmenu={togglesubmenu} togglesubmenu1= {togglesubmenu1}/>
      <Banner toggleall={toggleall} />
      <Card toggleall={toggleall} btnGroup={btnGroup} />
      <Centre toggleall={toggleall}  btnGroup={btnGroup} />
