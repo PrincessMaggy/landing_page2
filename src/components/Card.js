@@ -74,6 +74,36 @@ function Card(props) {
         </div>
     </div>
 
+    <div className='card-container four'>
+        <div className='card-text'>
+            <h2>Lorem ipsum lorem?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <motion.button    variants={props.btnGroup}
+         whileHover={{scale:1.05}}
+         whileTap={{scale:0.95}}
+         className="card-btn">Learn more
+          </motion.button>
+        </div>
+        <div className='card-img'>
+            <img src={card4} alt="card" />
+        </div>
+    </div>
+
+    <div className='card-container four'>
+        <div className='card-text'>
+            <h2>Lorem ipsum lorem?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum vel nulla a consequat. Donec facilisis, leo </p>
+            <motion.button    variants={props.btnGroup}
+         whileHover={{scale:1.05}}
+         whileTap={{scale:0.95}}
+         className="card-btn">Learn more
+          </motion.button>
+        </div>
+        <div className='card-img'>
+            <img src={card4} alt="card" />
+        </div>
+    </div>
+
     </div>
   )
 }

@@ -29,6 +29,10 @@
         width: 90vw;
         padding: 0;
     }
+    @media(max-width:350px){
+        width: 13rem;
+
+    }
 }
 .input{
     border: none;
@@ -40,6 +44,10 @@
         margin-left: 0;
         padding: 0;
         width: 14rem;
+    }
+    @media(max-width:350px){
+        width: 6rem;
+
     }
     &:hover{
         border: none;
@@ -66,6 +74,11 @@
     @media(max-width:768px){
        width: 6em;
         padding: 0;
+    }
+    @media(max-width:350px){
+        width: 5rem;
+        font-size: 0.9rem;
+
     }
     @media(min-width:769px){
     font-size: 1rem;
