@@ -13,7 +13,7 @@ function Footer(props) {
     <div className='footer-container' onClick={props.toggleall}>
       <div className="footer">
       <div className="footerleft">
-        <h2><Link id="logo" to="/sample" className='footerlogo'>AppName</Link> </h2>
+        <h2><Link id="logo" to="/landing_page2" className='footerlogo'>AppName</Link> </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum diam sem, in aliquet justo bibendum non. Suspendisse 
           {/* dapibus ultricies neque sed rhoncus. Integer consequat aliquet aliquet. Quisque aliquam feugiat mauris, eu fringilla dolor eleifend id. Proin nibh dui, dictum nec enim eu, posuere dapibus nulla. Proin interdu
           m condimentum sollicitudin. Ut eros nunc, mattis et mattis nec, viverra eu enim. Aenean fermentum egestas eros. Pellentesque non tellus nisi. Duis convallis ex id dui viverra molestie id at dolor. Nam et libero at 
