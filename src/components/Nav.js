@@ -79,7 +79,7 @@ const item={
           <div className='logoham' 
     onClick={props.toggleall}>
             <motion.h2 variants={header}>
-                  <Link id="logo" to="/sample" className='navlink'>Logo</Link> 
+                  <Link id="logo" to="/landing_page2" className='navlink'>Logo</Link> 
             </motion.h2>
             <motion.div 
               variants={item}
